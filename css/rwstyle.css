@@ -1,0 +1,234 @@
+
+#rwrecentpost li{
+      list-style: square inside url('../img/arrow-bullets-icon.png');   
+}
+#rwrecentpost li a{
+    text-decoration: none;
+}
+
+.rwrecentbutton{
+    display: inline;
+    width: 115px;
+    background: #4E9CAF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;    
+    line-height: 25px;
+}
+a.rwrecentbutton {
+    color: #fff !important;
+    font-style: italic;
+}
+
+/* Design */
+
+
+#rwrpt_gridlayout{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+#rwrpt_gridlayout .rwrpt_cards_item img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+#rwrpt_gridlayout .rwrpt_card_btn {
+   padding: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #000;
+  background: transparent;
+}
+
+#rwrpt_gridlayout .rwrpt_card_btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+#rwrpt_gridlayout .rwrpt_cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#rwrpt_gridlayout .rwrpt_cards_item {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+    #rwrpt_gridlayout .rwrpt_cards_item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 896px) {
+    #rwrpt_gridlayout .rwrpt_cards_item {
+    width: 33.3333%;
+  }
+}
+
+#rwrpt_gridlayout .rwrpt_card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+ }
+
+#rwrpt_gridlayout .rwrpt_card_content {
+ 
+    padding: 1rem;
+    
+}
+
+#rwrpt_gridlayout .rwrpt_card_title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+#rwrpt_gridlayout .rwrpt_card_text {
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+#rwrpt_gridlayout .rwrpt_made_by{
+  font-weight: 400;
+   margin-top: 35px;
+  text-align: center;
+ 
+}
+
+/* list layout css */
+
+
+#rwrpt_listlayout{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  #rwrpt_listlayout .rwrpt_cards_item img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  #rwrpt_listlayout .rwrpt_card_btn {
+    padding: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #000;
+    background: transparent;
+  }
+  
+  #rwrpt_listlayout .rwrpt_card_btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  #rwrpt_listlayout .rwrpt_cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #rwrpt_listlayout .rwrpt_cards_item {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  #rwrpt_listlayout .rwrpt_card {
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  #rwrpt_listlayout .rwrpt_card_content {
+    padding: 1rem;
+    
+  }
+  
+  #rwrpt_listlayout .rwrpt_card_title {
+   
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    
+  }
+  
+  #rwrpt_listlayout .rwrpt_card_text {
+    
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+ 
+  @media screen and (min-width:601px){
+    #rwrpt_listlayout .rwrpt_card_image {
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .rwrpt_card_image img {
+        max-width: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 200px;
+    }
+    #rwrpt_listlayout .rwrpt_card {
+        flex-direction: unset !important;
+    }
+    #rwrpt_listlayout .rwrpt_cards_item img {
+        max-width: 100%;
+        width: 100%;
+        vertical-align: middle;
+        height: auto;
+        padding: 10px;
+    }
+    #rwrpt_listlayout .rwrpt_card_content {
+        width: 100%;
+    }
+    #rwrpt_listlayout .rwrpt_card_btn {
+        font-size: 12px;
+        background: transparent;
+        max-width: 120px;
+    }
+  }
+  @media screen and (min-width:901px){
+    #rwrpt_listlayout {
+        max-width: 992px;
+        margin: 0 auto;
+        width: 100%;
+    }
+  }
